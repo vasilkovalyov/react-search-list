@@ -1,0 +1,23 @@
+.user__list-item {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+
+    &:hover {
+        cursor: pointer;
+        
+        p {
+            color: aquamarine;
+        }
+    }
+
+    .image {
+        max-width: 80px;
+        width: 100%;
+        display: inline-block;
+
+        img {
+            width: 100%;
+        }
+    }
+}

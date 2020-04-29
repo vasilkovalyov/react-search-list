@@ -1,0 +1,66 @@
+$bg-color: darkslategray;
+
+* {
+    box-sizing: border-box;
+}
+
+
+.section-app {
+    min-height: 100vh;
+    background-color: $bg-color;
+    padding: 20px 0;
+    color: white;
+
+    .container {
+        max-width: 1230px;
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+
+    .col {
+        width: 25%;
+        padding: 0 15px;
+        display: flex;
+    }
+}
+
+.aside {
+    width: 35%;
+    margin-right: 15px;
+    padding-top: 50px;
+}
+
+.section-content {
+    width: 60%;
+}
+
+.btn-wrap {
+    text-align: center;
+}
+
+.btn-show-user {
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    border-radius: 3px;
+    outline: none;
+    background-color: burlywood;
+    border: 0;
+    color: darkslategray;
+    margin-bottom: 30px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: darken(burlywood, 10%);
+    }
+}

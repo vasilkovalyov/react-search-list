@@ -1,0 +1,61 @@
+.user {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+
+    &__img {
+        max-width: 100px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    &__btn-wrap {
+        text-align: center;
+    }
+
+    &__hide-content {
+        margin-bottom: 20px;
+    }
+
+    &__phone {
+        color: white;
+        text-decoration: none;
+        transition: 0.3s all linear;
+        display: inline-block;
+        margin-bottom: 10px;
+
+        &:hover {
+            color: cadetblue;
+        }
+    }
+
+    &__btn {
+        font-size: 14px;
+        border: 0;
+        border-radius: 4px;
+        display: inline-block;
+        width: 100px;
+        padding: 5px;
+        font-weight: 600;
+        background-color: cadetblue;
+        transition: 0.3s all linear;
+        
+        &:hover {
+            cursor: pointer;
+            background-color: darken(cadetblue, 10%);
+        }
+    }
+
+    h2 {
+        font-size: inherit;
+    }
+
+    p {
+        margin: 0 0 15px 0;
+    }
+}
